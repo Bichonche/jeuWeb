@@ -20,8 +20,7 @@ function myTimer()
 	{
 		left[count] = 200;
 		newDiv			= document.createElement('div');
-		
-		newDiv.id			= count;
+		newDiv.id		= count;
 		newDiv.style.top = (count*60+10)+'px';
 		newDiv.style.left = left[count]+'px';
 		newDiv.className 	= 'redSquare';
@@ -30,7 +29,6 @@ function myTimer()
 	}
 	if (t >= 400)
 	{
-		
 		if (t %100 === 0)
 			cpt2++;
 		for (var i = 0; i < cpt2; i++)
